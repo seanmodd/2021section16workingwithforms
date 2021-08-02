@@ -1,13 +1,16 @@
+import { Button, VStack } from '@chakra-ui/react';
+
 const SimpleInput = (props) => {
+
   return (
     <form>
-      <div className='form-control'>
+      <VStack pt={20} className='form-control'>
         <label htmlFor='name'>Your Name</label>
         <input type='text' id='name' />
-      </div>
-      <div className="form-actions">
-        <button>Submit</button>
-      </div>
+      </VStack>
+      <VStack pt={10} className="form-actions">
+        <Button><button>Submit</button></Button> 
+      </VStack>
     </form>
   );
 };

@@ -31,7 +31,7 @@ const Index = () => {
           align="center"
           color={textColor[colorMode]}
         >
-          Section 15: Building Custom Hooks
+          Section 16: Working with Forms
         </Heading>
      <BasicForm />
      <SimpleInput />
